@@ -37,6 +37,34 @@ function Contact() {
           </p>
         </div>
       </div>
+      <div className="row mt-5">
+        <div className="col-md-12">
+          <h3 className="text-pink-dark text-center mb-4">ส่งข้อความถึงเรา</h3>
+          <form>
+            <div className="mb-3">
+              <label htmlFor="name" className="form-label">
+                ชื่อ-นามสกุล
+              </label>
+              <input type="text" className="form-control" id="name" placeholder="กรอกชื่อ-นามสกุลของคุณ" />
+            </div>
+            <div className="mb-3">
+              <label htmlFor="email" className="form-label">
+                อีเมล
+              </label>
+              <input type="email" className="form-control" id="email" placeholder="กรอกอีเมลของคุณ" />
+            </div>
+            <div className="mb-3">
+              <label htmlFor="message" className="form-label">
+                ข้อความ
+              </label>
+              <textarea className="form-control" id="message" rows="5" placeholder="พิมพ์ข้อความของคุณ"></textarea>
+            </div>
+            <button type="submit" className="btn btn-pink-dark">
+              ส่งข้อความ
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }

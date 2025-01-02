@@ -18,9 +18,9 @@ function Profile() {
                                 width={150}
                                 height={150}
                             />
-                            <h3 className="mb-3 text-primary">นางสาวกานต์ธิดา จ่าดวงใจ</h3>
-                            <p className="text-secondary mb-2"><strong>รหัสนักศึกษา:</strong> IT.4501</p>
-                            <p className="text-secondary mb-2"><strong>อายุ:</strong> 20 ปี</p>
+                            <h3 className="mb-3 text-primary">นายพฤศกร ปาปวน</h3>
+                            <p className="text-secondary mb-2"><strong>67319010089:</strong> IT.4501</p>
+                            <p className="text-secondary mb-2"><strong>อายุ:</strong> 19 ปี</p>
                             <p className="text-secondary mb-2"><strong>สาขาวิชา:</strong> เทคโนโลยีสารสนเทศ</p>
                             <p className="text-secondary"><strong>วิทยาลัย:</strong> วิทยาลัยเทคโนโลยีโปลิเทคนิคลานนา เชียงใหม่</p>
                         </div>

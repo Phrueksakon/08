@@ -3,16 +3,17 @@ import React from "react";
 function Home() {
   return (
     <div className="container-fluid bg-dark text-white py-5">
+      {/* Hero Section */}
       <div className="container py-4 text-center">
         <img
           src="/images/img-it-UTNwL-IP.jpeg"
           alt="IT Department"
           className="mb-4 img-fluid rounded shadow"
-          style={{ maxHeight: "300px", objectFit: "cover" }}
+          style={{ maxHeight: "250px", objectFit: "cover" }}
         />
-        <h1 className="display-5 text-warning">สาขาเทคโนโลยีสารสนเทศ</h1>
-        <p className="lead text-light fs-5">
-          มุ่งเน้นการพัฒนาทักษะด้านไอที เพื่อสร้างนักพัฒนาโปรแกรม 
+        <h1 className="display-6 text-warning">ยินดีต้อนรับ! สาขาเทคโนโลยีสารสนเทศ</h1>
+        <p className="lead text-light fs-6">
+          มุ่งเน้นการพัฒนาทักษะด้านไอที เพื่อสร้างนักพัฒนาโปรแกรม
           นักวิเคราะห์ระบบ และผู้เชี่ยวชาญด้านเทคโนโลยีที่พร้อมสู่โลกอนาคต
         </p>
         <div className="mt-4">
@@ -31,18 +32,19 @@ function Home() {
         </div>
       </div>
 
+      {/* Courses Section */}
       <div className="container mt-5">
-        <h2 className="text-center text-warning mb-4 fs-4">หลักสูตรที่น่าสนใจ</h2>
+        <h2 className="text-center text-warning mb-4 fs-5">หลักสูตรที่น่าสนใจ</h2>
         <div className="row text-center">
           <div className="col-md-4 mb-4">
             <div className="p-4 bg-light rounded shadow-sm h-100">
               <img
-                src="images\20241121-094109.jpg"
+                src="images/20241121-094109.jpg"
                 alt="Web Development"
                 className="img-fluid rounded mb-3"
               />
-              <h3 className="text-dark fs-5">การพัฒนาเว็บไซต์</h3>
-              <p className="text-secondary fs-6">
+              <h3 className="text-dark fs-6">การพัฒนาเว็บไซต์</h3>
+              <p className="text-secondary fs-7">
                 เรียนรู้การเขียนโปรแกรม HTML, CSS, JavaScript และ Frameworks
                 ที่ได้รับความนิยม เช่น React และ Angular
               </p>
@@ -51,12 +53,12 @@ function Home() {
           <div className="col-md-4 mb-4">
             <div className="p-4 bg-light rounded shadow-sm h-100">
               <img
-                src="images\images.jpg"
+                src="images/images.jpg"
                 alt="Database Management"
                 className="img-fluid rounded mb-3"
               />
-              <h3 className="text-dark fs-5">การจัดการฐานข้อมูล</h3>
-              <p className="text-secondary fs-6">
+              <h3 className="text-dark fs-6">การจัดการฐานข้อมูล</h3>
+              <p className="text-secondary fs-7">
                 เรียนรู้เกี่ยวกับระบบฐานข้อมูล เช่น MySQL, MongoDB และการจัดการข้อมูลอย่างมีประสิทธิภาพ
               </p>
             </div>
@@ -64,12 +66,12 @@ function Home() {
           <div className="col-md-4 mb-4">
             <div className="p-4 bg-light rounded shadow-sm h-100">
               <img
-                src="images\download (1).jpg"
+                src="images/download (1).jpg"
                 alt="Application Development"
                 className="img-fluid rounded mb-3"
               />
-              <h3 className="text-dark fs-5">การพัฒนาแอปพลิเคชัน</h3>
-              <p className="text-secondary fs-6">
+              <h3 className="text-dark fs-6">การพัฒนาแอปพลิเคชัน</h3>
+              <p className="text-secondary fs-7">
                 สร้างแอปพลิเคชันบนมือถือและเดสก์ท็อปด้วย Java, Swift และ Flutter
               </p>
             </div>
@@ -77,12 +79,13 @@ function Home() {
         </div>
       </div>
 
+      {/* About Section */}
       <div className="container mt-5">
-        <h2 className="text-center text-warning mb-4 fs-4">เกี่ยวกับสาขา</h2>
+        <h2 className="text-center text-warning mb-4 fs-5">เกี่ยวกับสาขา</h2>
         <p className="text-light text-center fs-6">
-          สาขาเทคโนโลยีสารสนเทศเปิดสอนในระดับประกาศนียบัตรวิชาชีพ (ปวช.) 
-          และประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.) 
-          โดยเน้นพัฒนานักเรียนให้มีความสามารถในด้านการเขียนโปรแกรม 
+          สาขาเทคโนโลยีสารสนเทศเปิดสอนในระดับประกาศนียบัตรวิชาชีพ (ปวช.)
+          และประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.)
+          โดยเน้นพัฒนานักเรียนให้มีความสามารถในด้านการเขียนโปรแกรม
           การวิเคราะห์ระบบ และการประยุกต์ใช้เทคโนโลยีในโลกธุรกิจ
         </p>
         <div className="text-center">
